@@ -1,0 +1,6 @@
+# Request part of the service
+string name
+
+---
+# Response part of the service
+bool success

@@ -1,0 +1,65 @@
+[0.188s] Invoking command in '/home/nextup/ros2_ws2/src/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake /home/nextup/ros2_ws2/src/executors_cpp -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws2/src/install/executors_cpp
+[0.232s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.349s] -- Detecting C compile features
+[0.349s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.432s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.442s] -- Detecting CXX compile features - done
+[0.446s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.973s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.038s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.047s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.059s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.111s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.224s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.230s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.389s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.430s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.484s] -- Looking for pthread.h
+[1.547s] -- Looking for pthread.h - found
+[1.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.616s] -- Found Threads: TRUE  
+[1.826s] -- Configuring done
+[1.836s] -- Generating done
+[1.837s] -- Build files have been written to: /home/nextup/ros2_ws2/src/build/executors_cpp
+[1.848s] Invoked command in '/home/nextup/ros2_ws2/src/build/executors_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake /home/nextup/ros2_ws2/src/executors_cpp -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws2/src/install/executors_cpp
+[1.852s] Invoking command in '/home/nextup/ros2_ws2/src/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/executors_cpp -- -j16 -l16
+[1.920s] [ 25%] [32mBuilding CXX object CMakeFiles/single_threaded_executor.dir/src/single_threaded_executor.cpp.o[0m
+[1.923s] [ 50%] [32mBuilding CXX object CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o[0m
+[8.193s] [ 75%] [32m[1mLinking CXX executable multi_threaded_executor[0m
+[8.343s] [100%] [32m[1mLinking CXX executable single_threaded_executor[0m
+[8.611s] [100%] Built target multi_threaded_executor
+[8.722s] [100%] Built target single_threaded_executor
+[8.742s] Invoked command in '/home/nextup/ros2_ws2/src/build/executors_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/executors_cpp -- -j16 -l16
+[8.798s] Invoking command in '/home/nextup/ros2_ws2/src/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/executors_cpp
+[8.811s] -- Install configuration: ""
+[8.811s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/lib/executors_cpp/single_threaded_executor
+[8.812s] -- Set runtime path of "/home/nextup/ros2_ws2/src/install/executors_cpp/lib/executors_cpp/single_threaded_executor" to ""
+[8.812s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/lib/executors_cpp/multi_threaded_executor
+[8.812s] -- Set runtime path of "/home/nextup/ros2_ws2/src/install/executors_cpp/lib/executors_cpp/multi_threaded_executor" to ""
+[8.812s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/ament_index/resource_index/package_run_dependencies/executors_cpp
+[8.813s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/ament_index/resource_index/parent_prefix_path/executors_cpp
+[8.813s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/environment/ament_prefix_path.sh
+[8.813s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/environment/ament_prefix_path.dsv
+[8.813s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/environment/path.sh
+[8.813s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/environment/path.dsv
+[8.814s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/local_setup.bash
+[8.814s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/local_setup.sh
+[8.814s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/local_setup.zsh
+[8.815s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/local_setup.dsv
+[8.815s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/package.dsv
+[8.815s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/ament_index/resource_index/packages/executors_cpp
+[8.815s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/cmake/executors_cppConfig.cmake
+[8.815s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/cmake/executors_cppConfig-version.cmake
+[8.815s] -- Installing: /home/nextup/ros2_ws2/src/install/executors_cpp/share/executors_cpp/package.xml
+[8.819s] Invoked command in '/home/nextup/ros2_ws2/src/build/executors_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/executors_cpp

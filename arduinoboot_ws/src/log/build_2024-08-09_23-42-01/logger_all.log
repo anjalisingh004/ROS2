@@ -1,0 +1,227 @@
+[0.060s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'arduniobot_firmware']
+[0.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['arduniobot_firmware'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72f8c991a140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72f8c9919b40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72f8c9919b40>>, mixin_verb=('build',))
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.179s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anjali/arduinoboot_ws/src'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(ardniobot_remote) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'ardniobot_remote' with type 'ros.ament_cmake' and name 'ardniobot_remote'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(arduinoboot_py_examples) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'arduinoboot_py_examples' with type 'ros.ament_python' and name 'arduinoboot_py_examples'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(ardunio_cpp_examples) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'ardunio_cpp_examples' with type 'ros.ament_cmake' and name 'ardunio_cpp_examples'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_bringup) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'arduniobot_bringup' with type 'ros.ament_cmake' and name 'arduniobot_bringup'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_controller) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'arduniobot_controller' with type 'ros.ament_cmake' and name 'arduniobot_controller'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_description) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'arduniobot_description' with type 'ros.ament_cmake' and name 'arduniobot_description'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_firmware) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'arduniobot_firmware' with type 'ros.ament_cmake' and name 'arduniobot_firmware'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_movelt) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'arduniobot_movelt' with type 'ros.ament_cmake' and name 'arduniobot_movelt'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(arduniobot_msgs) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'arduniobot_msgs' with type 'ros.ament_cmake' and name 'arduniobot_msgs'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ardunioboty_utils) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'ardunioboty_utils' with type 'ros.ament_cmake' and name 'ardunioboty_utils'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduinoboot_py_examples' in 'arduinoboot_py_examples'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ardunio_cpp_examples' in 'ardunio_cpp_examples'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduniobot_bringup' in 'arduniobot_bringup'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduniobot_controller' in 'arduniobot_controller'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduniobot_description' in 'arduniobot_description'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduniobot_movelt' in 'arduniobot_movelt'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduniobot_msgs' in 'arduniobot_msgs'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ardniobot_remote' in 'ardniobot_remote'
+[0.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ardunioboty_utils' in 'ardunioboty_utils'
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /opt/ros/humble
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'arduniobot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'arduniobot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware', 'merge_install': False, 'path': '/home/anjali/arduinoboot_ws/src/arduniobot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anjali/arduinoboot_ws/src/arduniobot_firmware' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anjali/arduinoboot_ws/src/arduniobot_firmware'
+[0.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/arduniobot_firmware -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/arduniobot_firmware -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware
+[1.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware -- -j16 -l16
+[7.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware -- -j16 -l16
+[7.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware
+[7.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduniobot_firmware)
+[7.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware
+[7.779s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware' for CMake module files
+[7.780s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware' for CMake config files
+[7.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduniobot_firmware', 'cmake_prefix_path')
+[7.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/hook/cmake_prefix_path.ps1'
+[7.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/hook/cmake_prefix_path.dsv'
+[7.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/hook/cmake_prefix_path.sh'
+[7.781s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib'
+[7.781s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/bin'
+[7.781s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/pkgconfig/arduniobot_firmware.pc'
+[7.781s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/python3.10/site-packages'
+[7.782s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/bin'
+[7.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.ps1'
+[7.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv'
+[7.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.sh'
+[7.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.bash'
+[7.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.zsh'
+[7.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/colcon-core/packages/arduniobot_firmware)
+[7.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduniobot_firmware)
+[7.810s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware' for CMake module files
+[7.811s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware' for CMake config files
+[7.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduniobot_firmware', 'cmake_prefix_path')
+[7.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/hook/cmake_prefix_path.ps1'
+[7.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/hook/cmake_prefix_path.dsv'
+[7.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/hook/cmake_prefix_path.sh'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/bin'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/pkgconfig/arduniobot_firmware.pc'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/python3.10/site-packages'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/bin'
+[7.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.ps1'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.sh'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.bash'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.zsh'
+[7.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/colcon-core/packages/arduniobot_firmware)
+[7.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.814s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.820s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.821s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.834s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anjali/arduinoboot_ws/src/install/local_setup.ps1'
+[7.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anjali/arduinoboot_ws/src/install/_local_setup_util_ps1.py'
+[7.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anjali/arduinoboot_ws/src/install/setup.ps1'
+[7.840s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anjali/arduinoboot_ws/src/install/local_setup.sh'
+[7.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anjali/arduinoboot_ws/src/install/_local_setup_util_sh.py'
+[7.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anjali/arduinoboot_ws/src/install/setup.sh'
+[7.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anjali/arduinoboot_ws/src/install/local_setup.bash'
+[7.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anjali/arduinoboot_ws/src/install/setup.bash'
+[7.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anjali/arduinoboot_ws/src/install/local_setup.zsh'
+[7.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anjali/arduinoboot_ws/src/install/setup.zsh'

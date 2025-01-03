@@ -1,0 +1,31 @@
+[0.293s] Invoking command in '/home/anjali/arduinoboot_ws/build/ardunio_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/ardunio_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/install/ardunio_cpp_examples
+[0.309s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.546s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.548s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.619s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.620s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.723s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.885s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.885s]   By not providing "Findarduniobot_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.886s]   project has asked CMake to find a package configuration file provided by
+[0.886s]   "arduniobot_msgs", but CMake did not find one.
+[0.886s] 
+[0.886s]   Could not find a package configuration file provided by "arduniobot_msgs"
+[0.886s]   with any of the following names:
+[0.887s] 
+[0.887s]     arduniobot_msgsConfig.cmake
+[0.887s]     arduniobot_msgs-config.cmake
+[0.887s] 
+[0.888s]   Add the installation prefix of "arduniobot_msgs" to CMAKE_PREFIX_PATH or
+[0.888s]   set "arduniobot_msgs_DIR" to a directory containing one of the above files.
+[0.888s]   If "arduniobot_msgs" provides a separate development package or SDK, be
+[0.888s]   sure it has been installed.
+[0.888s] 
+[0.888s] [0m
+[0.889s] -- Configuring incomplete, errors occurred!
+[0.889s] See also "/home/anjali/arduinoboot_ws/build/ardunio_cpp_examples/CMakeFiles/CMakeOutput.log".
+[0.903s] Invoked command in '/home/anjali/arduinoboot_ws/build/ardunio_cpp_examples' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/ardunio_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/install/ardunio_cpp_examples

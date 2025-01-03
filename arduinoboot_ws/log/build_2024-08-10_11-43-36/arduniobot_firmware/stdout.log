@@ -1,0 +1,20 @@
+[ 50%] Built target simple_serial_transmitter
+[100%] Built target simple_serial_receiver
+-- Install configuration: ""
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduniobot_firmware
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduniobot_firmware
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.sh
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.sh
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.dsv
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.bash
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.sh
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.zsh
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/packages/arduniobot_firmware
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig.cmake
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig-version.cmake
+-- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.xml

@@ -1,0 +1,9 @@
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/uninstall.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/turtle_catch_uninstall.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/test.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/edit_cache.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/rebuild_cache.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/list_install_components.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/install.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/install/local.dir
+/home/nextup/ros2_ws/src/build/turtle_catch/CMakeFiles/install/strip.dir

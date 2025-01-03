@@ -1,0 +1,16 @@
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/launch/simulated_robot.launch.py
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/ament_index/resource_index/package_run_dependencies/arduniobot_bringup
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/ament_index/resource_index/parent_prefix_path/arduniobot_bringup
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/environment/ament_prefix_path.sh
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/environment/ament_prefix_path.dsv
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/environment/path.sh
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/environment/path.dsv
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/local_setup.bash
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/local_setup.sh
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/local_setup.zsh
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/local_setup.dsv
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/package.dsv
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/ament_index/resource_index/packages/arduniobot_bringup
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/cmake/arduniobot_bringupConfig.cmake
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/cmake/arduniobot_bringupConfig-version.cmake
+/home/anjali/arduinoboot_ws/install/arduniobot_bringup/share/arduniobot_bringup/package.xml

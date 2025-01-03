@@ -1,0 +1,16 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nextup/ros2_ws1/src/build/my_robot_description
+-- Install configuration: ""
+-- Up-to-date: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//urdf
+-- Installing: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+-- Installing: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//launch
+-- Installing: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/nextup/ros2_ws1/src/my_robot_description/rviz": No such file or
+  directory.
+
+[0m
+-- Installing: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//launch/display.launch.py

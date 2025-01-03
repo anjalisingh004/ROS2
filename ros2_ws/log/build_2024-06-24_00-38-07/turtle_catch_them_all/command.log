@@ -1,0 +1,2 @@
+Invoking command in '/home/nextup/ros2_ws/build/turtle_catch_them_all': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws/build/turtle_catch_them_all -- -j16 -l16
+Invoked command in '/home/nextup/ros2_ws/build/turtle_catch_them_all' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/install/turtlesim_catch_them_all:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws/build/turtle_catch_them_all -- -j16 -l16

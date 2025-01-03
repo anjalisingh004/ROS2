@@ -1,0 +1,17 @@
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/config/arduniobot_controller.yaml
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/launch/controller.launch.py
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/ament_index/resource_index/package_run_dependencies/arduniobot_controller
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/ament_index/resource_index/parent_prefix_path/arduniobot_controller
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/environment/ament_prefix_path.sh
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/environment/ament_prefix_path.dsv
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/environment/path.sh
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/environment/path.dsv
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/local_setup.bash
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/local_setup.sh
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/local_setup.zsh
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/local_setup.dsv
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/package.dsv
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/ament_index/resource_index/packages/arduniobot_controller
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/cmake/arduniobot_controllerConfig.cmake
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/cmake/arduniobot_controllerConfig-version.cmake
+/home/anjali/arduinoboot_ws/src/install/arduniobot_controller/share/arduniobot_controller/package.xml

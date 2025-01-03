@@ -1,0 +1,20 @@
+[31mCMake Error at /home/nextup/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+  By not providing "Findrosdil_default_runtime.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "rosdil_default_runtime", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosdil_default_runtime" with any of the following names:
+
+    rosdil_default_runtimeConfig.cmake
+    rosdil_default_runtime-config.cmake
+
+  Add the installation prefix of "rosdil_default_runtime" to
+  CMAKE_PREFIX_PATH or set "rosdil_default_runtime_DIR" to a directory
+  containing one of the above files.  If "rosdil_default_runtime" provides a
+  separate development package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  /home/nextup/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake:41 (include)
+  CMakeLists.txt:11 (find_package)
+
+[0m

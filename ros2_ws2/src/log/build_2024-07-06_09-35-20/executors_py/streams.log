@@ -1,0 +1,44 @@
+[0.881s] Invoking command in '/home/nextup/ros2_ws2/src/executors_py': PYTHONPATH=/home/nextup/ros2_ws2/src/build/executors_py/prefix_override:/home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/executors_py build --build-base /home/nextup/ros2_ws2/src/build/executors_py/build install --record /home/nextup/ros2_ws2/src/build/executors_py/install.log --single-version-externally-managed install_data
+[1.067s] running egg_info
+[1.068s] creating ../build/executors_py/executors_py.egg-info
+[1.077s] writing ../build/executors_py/executors_py.egg-info/PKG-INFO
+[1.077s] writing dependency_links to ../build/executors_py/executors_py.egg-info/dependency_links.txt
+[1.078s] writing entry points to ../build/executors_py/executors_py.egg-info/entry_points.txt
+[1.078s] writing requirements to ../build/executors_py/executors_py.egg-info/requires.txt
+[1.078s] writing top-level names to ../build/executors_py/executors_py.egg-info/top_level.txt
+[1.078s] writing manifest file '../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[1.100s] reading manifest file '../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[1.101s] writing manifest file '../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.101s] creating /home/nextup/ros2_ws2/src/build/executors_py/build
+[1.101s] creating /home/nextup/ros2_ws2/src/build/executors_py/build/lib
+[1.101s] creating /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py
+[1.101s] copying executors_py/multi_threaded_executor.py -> /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py
+[1.101s] copying executors_py/single_threaded_executor.py -> /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py
+[1.102s] copying executors_py/__init__.py -> /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py
+[1.102s] copying executors_py/number_publisher.py -> /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py
+[1.102s] running install
+[1.106s] running install_lib
+[1.118s] creating /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py
+[1.118s] copying /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py/multi_threaded_executor.py -> /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py
+[1.118s] copying /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py/single_threaded_executor.py -> /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py
+[1.118s] copying /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py/__init__.py -> /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py
+[1.119s] copying /home/nextup/ros2_ws2/src/build/executors_py/build/lib/executors_py/number_publisher.py -> /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py
+[1.119s] byte-compiling /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py/multi_threaded_executor.py to multi_threaded_executor.cpython-310.pyc
+[1.120s] byte-compiling /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py/single_threaded_executor.py to single_threaded_executor.cpython-310.pyc
+[1.120s] byte-compiling /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py/__init__.py to __init__.cpython-310.pyc
+[1.120s] byte-compiling /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py/number_publisher.py to number_publisher.cpython-310.pyc
+[1.120s] running install_data
+[1.121s] creating /home/nextup/ros2_ws2/src/install/executors_py/share/ament_index
+[1.121s] creating /home/nextup/ros2_ws2/src/install/executors_py/share/ament_index/resource_index
+[1.121s] creating /home/nextup/ros2_ws2/src/install/executors_py/share/ament_index/resource_index/packages
+[1.121s] copying resource/executors_py -> /home/nextup/ros2_ws2/src/install/executors_py/share/ament_index/resource_index/packages
+[1.121s] copying package.xml -> /home/nextup/ros2_ws2/src/install/executors_py/share/executors_py
+[1.121s] running install_egg_info
+[1.134s] Copying ../build/executors_py/executors_py.egg-info to /home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages/executors_py-0.0.0-py3.10.egg-info
+[1.134s] running install_scripts
+[1.237s] Installing multi_threaded_executor script to /home/nextup/ros2_ws2/src/install/executors_py/lib/executors_py
+[1.238s] Installing single_threaded_executor script to /home/nextup/ros2_ws2/src/install/executors_py/lib/executors_py
+[1.238s] writing list of installed files to '/home/nextup/ros2_ws2/src/build/executors_py/install.log'
+[1.298s] Invoked command in '/home/nextup/ros2_ws2/src/executors_py' returned '0': PYTHONPATH=/home/nextup/ros2_ws2/src/build/executors_py/prefix_override:/home/nextup/ros2_ws2/src/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/executors_py build --build-base /home/nextup/ros2_ws2/src/build/executors_py/build install --record /home/nextup/ros2_ws2/src/build/executors_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,83 @@
+[0.028s] Invoking command in '/home/nextup/ros2_ws2/build/actions_cpp': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/src/install/final_project:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws2/src/install/executors_cpp:/home/nextup/ros2_ws2/src/install/components_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nextup/ros2_ws2/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws2/install/actions_cpp
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.621s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.706s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.751s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.756s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.765s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.851s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.926s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.945s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.987s] -- Looking for pthread.h
+[1.036s] -- Looking for pthread.h - found
+[1.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.084s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.085s] -- Found Threads: TRUE  
+[1.196s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.259s] -- Found my_robot_interfaces: 0.0.0 (/home/nextup/ros2_ws2/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.292s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.380s] -- Configuring done
+[1.393s] -- Generating done
+[1.394s] -- Build files have been written to: /home/nextup/ros2_ws2/build/actions_cpp
+[1.403s] Invoked command in '/home/nextup/ros2_ws2/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/src/install/final_project:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws2/src/install/executors_cpp:/home/nextup/ros2_ws2/src/install/components_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nextup/ros2_ws2/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws2/install/actions_cpp
+[1.403s] Invoking command in '/home/nextup/ros2_ws2/build/actions_cpp': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/src/install/final_project:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws2/src/install/executors_cpp:/home/nextup/ros2_ws2/src/install/components_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nextup/ros2_ws2/build/actions_cpp -- -j16 -l16
+[1.443s] [ 40%] [32mBuilding CXX object CMakeFiles/count_until_server_queue_goals.dir/src/count_until_server_queue_goals.cpp.o[0m
+[1.443s] [ 40%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[1.443s] [ 40%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[1.443s] [ 40%] [32mBuilding CXX object CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o[0m
+[1.447s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o[0m
+[4.503s] [ 60%] [32m[1mLinking CXX executable move_robot_server[0m
+[4.519s] [ 70%] [32m[1mLinking CXX executable count_until_server[0m
+[4.636s] [ 80%] [32m[1mLinking CXX executable count_until_server_queue_goals[0m
+[4.671s] [ 80%] Built target move_robot_server
+[4.687s] [ 80%] Built target count_until_server
+[4.749s] [ 90%] [32m[1mLinking CXX executable count_until_client[0m
+[4.773s] [ 90%] Built target count_until_server_queue_goals
+[4.861s] [ 90%] Built target count_until_client
+[8.394s] [100%] [32m[1mLinking CXX executable move_robot_client[0m
+[8.708s] [100%] Built target move_robot_client
+[8.716s] Invoked command in '/home/nextup/ros2_ws2/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/src/install/final_project:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws2/src/install/executors_cpp:/home/nextup/ros2_ws2/src/install/components_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nextup/ros2_ws2/build/actions_cpp -- -j16 -l16
+[8.741s] Invoking command in '/home/nextup/ros2_ws2/build/actions_cpp': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/src/install/final_project:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws2/src/install/executors_cpp:/home/nextup/ros2_ws2/src/install/components_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nextup/ros2_ws2/build/actions_cpp
+[8.747s] -- Install configuration: ""
+[8.747s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/count_until_server
+[8.748s] -- Set runtime path of "/home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/count_until_server" to ""
+[8.748s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goals
+[8.748s] -- Set runtime path of "/home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goals" to ""
+[8.748s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/count_until_client
+[8.749s] -- Set runtime path of "/home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/count_until_client" to ""
+[8.749s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/move_robot_server
+[8.749s] -- Set runtime path of "/home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/move_robot_server" to ""
+[8.750s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/move_robot_client
+[8.752s] -- Set runtime path of "/home/nextup/ros2_ws2/install/actions_cpp/lib/actions_cpp/move_robot_client" to ""
+[8.752s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+[8.752s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/environment/path.sh
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/environment/path.dsv
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/local_setup.bash
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/local_setup.sh
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/local_setup.zsh
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/local_setup.dsv
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/package.dsv
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+[8.753s] -- Installing: /home/nextup/ros2_ws2/install/actions_cpp/share/actions_cpp/package.xml
+[8.754s] Invoked command in '/home/nextup/ros2_ws2/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/src/install/final_project:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws2/src/install/executors_cpp:/home/nextup/ros2_ws2/src/install/components_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nextup/ros2_ws2/build/actions_cpp

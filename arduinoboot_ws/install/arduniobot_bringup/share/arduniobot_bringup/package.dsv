@@ -1,0 +1,8 @@
+source;share/arduniobot_bringup/hook/cmake_prefix_path.ps1
+source;share/arduniobot_bringup/hook/cmake_prefix_path.dsv
+source;share/arduniobot_bringup/hook/cmake_prefix_path.sh
+source;share/arduniobot_bringup/local_setup.bash
+source;share/arduniobot_bringup/local_setup.dsv
+source;share/arduniobot_bringup/local_setup.ps1
+source;share/arduniobot_bringup/local_setup.sh
+source;share/arduniobot_bringup/local_setup.zsh

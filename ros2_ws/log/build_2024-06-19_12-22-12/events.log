@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000170] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict()}
+[0.000183] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000193] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/nextup/ros2_ws/install/my_robot_interfaces')])}
+[0.000204] (turtle_catch) JobQueued: {'identifier': 'turtle_catch', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/nextup/ros2_ws/install/my_robot_interfaces')])}
+[0.000915] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.003959] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.007454] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[0.009958] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.010126] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/nextup/ros2_ws/src/my_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws/install/my_robot_interfaces'], 'cwd': '/home/nextup/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('OLDPWD', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1531'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22661'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nextup/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:33675'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nextup:@/tmp/.ICE-unix/1673,unix/nextup:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', '28003bc947174104964d8457ec42c545'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L60QP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nextup/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c84b0a8-3f41-4676-b91e-af9b389e062f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nextup/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/ros2_ws/install/my_robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099933] (-) TimerEvent: {}
+[0.171812] (my_robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.172129] (my_robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.172523] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.172580] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.172625] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.172667] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.172708] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.172748] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.172892] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'cmake'}
+[0.173002] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/nextup/ros2_ws/src/my_robot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws/install/my_robot_bringup'], 'cwd': '/home/nextup/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nextup'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nextup/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nextup'), ('OLDPWD', '/home/nextup'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1531'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '22661'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nextup/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nextup'), ('JOURNAL_STREAM', '8:33675'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nextup'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nextup:@/tmp/.ICE-unix/1673,unix/nextup:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', '28003bc947174104964d8457ec42c545'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L60QP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nextup/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c84b0a8-3f41-4676-b91e-af9b389e062f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nextup/ros2_ws/build/my_robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nextup/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nextup/ros2_ws/install/my_robot_interfaces')]), 'shell': False}
+[0.200136] (-) TimerEvent: {}
+[0.202468] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.210239] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.210522] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.211073] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.213229] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.213388] (my_robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.254608] (my_robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.261378] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300300] (-) TimerEvent: {}
+[0.310892] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.315928] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.316142] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.316350] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.318530] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.326486] (my_robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.375616] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.380842] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.381039] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.381288] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.382581] (my_robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.388431] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.390213] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.393702] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400419] (-) TimerEvent: {}
+[0.403921] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/nextup/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/nextup/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nextup/ros2_ws/src/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nextup', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nextup/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nextup', 'OLDPWD': '/home/nextup', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1531', 'SYSTEMD_EXEC_PID': '1698', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '22661', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nextup/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nextup', 'JOURNAL_STREAM': '8:33675', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nextup', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nextup:@/tmp/.ICE-unix/1673,unix/nextup:/tmp/.ICE-unix/1673', 'INVOCATION_ID': '28003bc947174104964d8457ec42c545', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.L60QP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nextup/ros2_ws/install/my_robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:8c84b0a8-3f41-4676-b91e-af9b389e062f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nextup/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nextup/ros2_ws/build/my_py_pkg/prefix_override:/home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/nextup/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nextup/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[0.419197] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.491974] (my_robot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500521] (-) TimerEvent: {}
+[0.561058] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.561516] (my_py_pkg) StdoutLine: {'line': b'creating ../../build/my_py_pkg/my_py_pkg.egg-info\n'}
+[0.561670] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.561886] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.562019] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.562116] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.562208] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.562296] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.563847] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.564142] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.564300] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.564428] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.564651] (my_py_pkg) StdoutLine: {'line': b'creating /home/nextup/ros2_ws/build/my_py_pkg/build\n'}
+[0.564756] (my_py_pkg) StdoutLine: {'line': b'creating /home/nextup/ros2_ws/build/my_py_pkg/build/lib\n'}
+[0.564847] (my_py_pkg) StdoutLine: {'line': b'creating /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.564933] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/ledpanel.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.565862] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/turtle_controller.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.566400] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/robot_news_station.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.566684] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.566799] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/smartphone.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.567003] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.567118] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_publisher.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.567378] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_server.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.567634] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_node.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.567877] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.568247] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/turtle_spawner.py -> /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[0.568650] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.568887] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.569475] (my_py_pkg) StdoutLine: {'line': b'creating /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.569607] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/ledpanel.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.569747] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.569871] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.569958] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570042] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570126] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570227] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570313] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570412] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570506] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570606] (my_py_pkg) StdoutLine: {'line': b'copying /home/nextup/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_spawner.py -> /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[0.570687] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/ledpanel.py to ledpanel.cpython-310.pyc\n'}
+[0.570767] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc\n'}
+[0.571258] (my_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.571495] (my_robot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.571623] (my_robot_interfaces) StderrLine: {'line': b'  my_robot_interfaces --arguments-file\n'}
+[0.571719] (my_robot_interfaces) StderrLine: {'line': b'  /home/nextup/ros2_ws/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json\n'}
+[0.571799] (my_robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.571891] (my_robot_interfaces) StderrLine: {'line': b'  /home/nextup/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces\n'}
+[0.571969] (my_robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.572047] (my_robot_interfaces) StderrLine: {'line': b'  /home/nextup/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)\n'}
+[0.572152] (my_robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.572232] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.572307] (my_robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.572365] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.572423] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.572482] (my_robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.572541] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.572599] (my_robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.572657] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.572718] (my_robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.572777] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.572837] (my_robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.572896] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.572955] (my_robot_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.573016] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.573077] (my_robot_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.573140] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[0.573204] (my_robot_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.573300] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[0.573364] (my_robot_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.573428] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[0.573490] (my_robot_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.573551] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.573613] (my_robot_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'turtle' is an invalid message\n"}
+[0.573676] (my_robot_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.573739] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.573801] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.573863] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.573925] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[0.573988] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.574049] (my_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.574110] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc\n'}
+[0.574238] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc\n'}
+[0.574303] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc\n'}
+[0.574365] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.574437] (my_robot_interfaces) StdoutLine: {'line': b'See also "/home/nextup/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.574501] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[0.574563] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc\n'}
+[0.574625] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc\n'}
+[0.574688] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[0.574753] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc\n'}
+[0.574818] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_spawner.py to turtle_spawner.cpython-310.pyc\n'}
+[0.574884] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.574947] (my_py_pkg) StdoutLine: {'line': b'creating /home/nextup/ros2_ws/install/my_py_pkg/share/ament_index\n'}
+[0.575010] (my_py_pkg) StdoutLine: {'line': b'creating /home/nextup/ros2_ws/install/my_py_pkg/share/ament_index/resource_index\n'}
+[0.575076] (my_py_pkg) StdoutLine: {'line': b'creating /home/nextup/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[0.575141] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /home/nextup/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[0.575234] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/nextup/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[0.575295] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.575354] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/nextup/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.575413] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.576862] (my_robot_interfaces) CommandEnded: {'returncode': 1}
+[0.590028] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/nextup/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.590192] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/nextup/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.590325] (my_py_pkg) StdoutLine: {'line': b'Installing ledpanel script to /home/nextup/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.590913] (my_py_pkg) StdoutLine: {'line': b'Installing number_app= my_robot_bringup.number_app:mainturtle_controller= my_py_pkg.turtle_controller:mainturtle_spawner script to /home/nextup/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.591037] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/nextup/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.591141] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/nextup/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.591295] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/nextup/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.591438] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/nextup/ros2_ws/build/my_py_pkg/install.log'\n"}
+[0.592266] (my_robot_bringup) StderrLine: {'line': b"Error parsing '/home/nextup/ros2_ws/src/my_robot_bringup/package.xml':\n"}
+[0.595485] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 1}
+[0.600623] (-) TimerEvent: {}
+[0.610823] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 'SIGINT'}
+[0.622986] (my_robot_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.623132] (my_robot_bringup) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.623172] (my_robot_bringup) StderrLine: {'line': b'    main()\n'}
+[0.623204] (my_robot_bringup) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.623235] (my_robot_bringup) StderrLine: {'line': b'    raise e\n'}
+[0.623263] (my_robot_bringup) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.623292] (my_robot_bringup) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.623320] (my_robot_bringup) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[0.623350] (my_robot_bringup) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[0.623379] (my_robot_bringup) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nextup/ros2_ws/src/my_robot_bringup/package.xml':\n"}
+[0.623409] (my_robot_bringup) StderrLine: {'line': b'Error(s):\n'}
+[0.623435] (my_robot_bringup) StderrLine: {'line': b"- The generic dependency on 'rclpy' is redundant with: exec_depend\n"}
+[0.623464] (my_robot_bringup) StderrLine: {'line': b"- The generic dependency on 'turtlesim' is redundant with: exec_depend\n"}
+[0.623491] (my_robot_bringup) StderrLine: {'line': b"- The generic dependency on 'geometry_msgs' is redundant with: exec_depend\n"}
+[0.633883] (my_robot_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.634013] (my_robot_bringup) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.634046] (my_robot_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.634081] (my_robot_bringup) StderrLine: {'line': b'  /home/nextup/ros2_ws/src/my_robot_bringup/package.xml\n'}
+[0.634108] (my_robot_bringup) StderrLine: {'line': b'  /home/nextup/ros2_ws/build/my_robot_bringup/ament_cmake_core/package.cmake)\n'}
+[0.634133] (my_robot_bringup) StderrLine: {'line': b'  returned error code 1\n'}
+[0.634157] (my_robot_bringup) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.634181] (my_robot_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.634206] (my_robot_bringup) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[0.634229] (my_robot_bringup) StderrLine: {'line': b'  CMakeLists.txt:16 (ament_package)\n'}
+[0.634252] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[0.634275] (my_robot_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[0.634298] (my_robot_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.634330] (my_robot_bringup) StdoutLine: {'line': b'See also "/home/nextup/ros2_ws/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[0.637989] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 'SIGINT'}
+[0.648756] (my_cpp_pkg) JobSkipped: {'identifier': 'my_cpp_pkg'}
+[0.648805] (turtle_catch) JobSkipped: {'identifier': 'turtle_catch'}
+[0.648817] (-) EventReactorShutdown: {}

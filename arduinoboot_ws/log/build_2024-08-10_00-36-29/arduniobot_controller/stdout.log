@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable slider_control[0m
+[ 75%] Built target slider_control

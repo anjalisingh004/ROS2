@@ -1,0 +1,33 @@
+[0.403s] Invoking command in '/home/nextup/ros2_ws2/src/build/lifecycle_py': PYTHONPATH=/home/nextup/ros2_ws2/src/build/lifecycle_py/prefix_override:/home/nextup/ros2_ws2/src/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nextup/ros2_ws2/src/build/lifecycle_py/build --no-deps symlink_data --force
+[0.575s] running develop
+[0.575s] /home/nextup/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.575s] !!
+[0.575s] 
+[0.575s]         ********************************************************************************
+[0.575s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.575s]         Instead, use pypa/build, pypa/installer or other
+[0.575s]         standards-based tools.
+[0.575s] 
+[0.575s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.575s]         ********************************************************************************
+[0.575s] 
+[0.575s] !!
+[0.575s]   easy_install.initialize_options(self)
+[0.677s] running egg_info
+[0.684s] writing lifecycle_py.egg-info/PKG-INFO
+[0.684s] writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+[0.684s] writing entry points to lifecycle_py.egg-info/entry_points.txt
+[0.684s] writing requirements to lifecycle_py.egg-info/requires.txt
+[0.685s] writing top-level names to lifecycle_py.egg-info/top_level.txt
+[0.698s] reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.699s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.706s] running build_ext
+[0.706s] Creating /home/nextup/ros2_ws2/src/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.707s] Installing lifecycle_node_manager script to /home/nextup/ros2_ws2/src/install/lifecycle_py/lib/lifecycle_py
+[0.707s] Installing number_publisher script to /home/nextup/ros2_ws2/src/install/lifecycle_py/lib/lifecycle_py
+[0.707s] 
+[0.707s] Installed /home/nextup/ros2_ws2/src/build/lifecycle_py
+[0.707s] running symlink_data
+[0.707s] symbolically linking /home/nextup/ros2_ws2/src/build/lifecycle_py/resource/lifecycle_py -> /home/nextup/ros2_ws2/src/install/lifecycle_py/share/ament_index/resource_index/packages
+[0.707s] symbolically linking /home/nextup/ros2_ws2/src/build/lifecycle_py/package.xml -> /home/nextup/ros2_ws2/src/install/lifecycle_py/share/lifecycle_py
+[0.731s] Invoked command in '/home/nextup/ros2_ws2/src/build/lifecycle_py' returned '0': PYTHONPATH=/home/nextup/ros2_ws2/src/build/lifecycle_py/prefix_override:/home/nextup/ros2_ws2/src/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nextup/ros2_ws2/src/build/lifecycle_py/build --no-deps symlink_data --force

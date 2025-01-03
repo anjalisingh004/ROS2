@@ -1,0 +1,31 @@
+[0.392s] Invoking command in '/home/nextup/ros2_ws2/src/build/actions_py': PYTHONPATH=/home/nextup/ros2_ws2/src/build/actions_py/prefix_override:/home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nextup/ros2_ws2/src/build/actions_py/build --no-deps symlink_data
+[0.556s] running develop
+[0.556s] /home/nextup/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.556s] !!
+[0.556s] 
+[0.556s]         ********************************************************************************
+[0.556s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.556s]         Instead, use pypa/build, pypa/installer or other
+[0.556s]         standards-based tools.
+[0.556s] 
+[0.556s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.556s]         ********************************************************************************
+[0.556s] 
+[0.556s] !!
+[0.556s]   easy_install.initialize_options(self)
+[0.648s] running egg_info
+[0.654s] writing actions_py.egg-info/PKG-INFO
+[0.654s] writing dependency_links to actions_py.egg-info/dependency_links.txt
+[0.654s] writing entry points to actions_py.egg-info/entry_points.txt
+[0.654s] writing requirements to actions_py.egg-info/requires.txt
+[0.654s] writing top-level names to actions_py.egg-info/top_level.txt
+[0.668s] reading manifest file 'actions_py.egg-info/SOURCES.txt'
+[0.669s] writing manifest file 'actions_py.egg-info/SOURCES.txt'
+[0.676s] running build_ext
+[0.676s] Creating /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[0.676s] Installing count_until_client script to /home/nextup/ros2_ws2/src/install/actions_py/lib/actions_py
+[0.676s] Installing count_until_server script to /home/nextup/ros2_ws2/src/install/actions_py/lib/actions_py
+[0.676s] 
+[0.677s] Installed /home/nextup/ros2_ws2/src/build/actions_py
+[0.677s] running symlink_data
+[0.699s] Invoked command in '/home/nextup/ros2_ws2/src/build/actions_py' returned '0': PYTHONPATH=/home/nextup/ros2_ws2/src/build/actions_py/prefix_override:/home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nextup/ros2_ws2/src/build/actions_py/build --no-deps symlink_data

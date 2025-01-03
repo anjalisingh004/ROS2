@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/usr/include/**",
+                "/home/anjali/ardunio_ws/install/**include/**",
+                "/home/anjali/arduinoboot_ws/src/arduniobot_controller/include/**",
+                "/home/anjali/arduinoboot_ws/install/**include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

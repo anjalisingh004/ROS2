@@ -1,0 +1,5 @@
+source;share/ardunio_cpp_examples/local_setup.bash
+source;share/ardunio_cpp_examples/local_setup.dsv
+source;share/ardunio_cpp_examples/local_setup.ps1
+source;share/ardunio_cpp_examples/local_setup.sh
+source;share/ardunio_cpp_examples/local_setup.zsh

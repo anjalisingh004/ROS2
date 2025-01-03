@@ -1,0 +1,39 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+-- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'libserial'
+--   Found libserial, version 1.0.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anjali/arduinoboot_ws/src/build/arduniobot_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o[0m
+[01m[K/home/anjali/arduinoboot_ws/src/arduniobot_controller/src/arduniobot_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Karduniobot_controller/arduniobot_interface.hpp: No such file or directory
+    1 | #include [01;31m[K"arduniobot_controller/arduniobot_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/arduniobot_controller.dir/build.make:76: CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arduniobot_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable slider_control[0m
+[ 75%] Built target slider_control
+gmake: *** [Makefile:146: all] Error 2

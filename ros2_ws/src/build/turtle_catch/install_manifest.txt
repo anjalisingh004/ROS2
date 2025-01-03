@@ -1,0 +1,15 @@
+/home/nextup/ros2_ws/src/install/turtle_catch/share/ament_index/resource_index/package_run_dependencies/turtle_catch
+/home/nextup/ros2_ws/src/install/turtle_catch/share/ament_index/resource_index/parent_prefix_path/turtle_catch
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/ament_prefix_path.sh
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/ament_prefix_path.dsv
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/path.sh
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/path.dsv
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.bash
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.sh
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.zsh
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.dsv
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/package.dsv
+/home/nextup/ros2_ws/src/install/turtle_catch/share/ament_index/resource_index/packages/turtle_catch
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/cmake/turtle_catchConfig.cmake
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/cmake/turtle_catchConfig-version.cmake
+/home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/package.xml

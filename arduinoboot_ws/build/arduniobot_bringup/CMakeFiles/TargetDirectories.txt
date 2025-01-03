@@ -1,0 +1,9 @@
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/uninstall.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/arduniobot_bringup_uninstall.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/test.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/edit_cache.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/rebuild_cache.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/list_install_components.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/install.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/install/local.dir
+/home/anjali/arduinoboot_ws/build/arduniobot_bringup/CMakeFiles/install/strip.dir

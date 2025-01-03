@@ -1,0 +1,50 @@
+[0.429s] Invoking command in '/home/nextup/ros2_ws2/src/build/actions_py': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/src/build/actions_py/prefix_override:/home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages:/home/nextup/ros2_ws2/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/nextup/ros2_ws2/src/build/actions_py/build
+[0.589s] running develop
+[0.590s] /home/nextup/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.590s] !!
+[0.590s] 
+[0.590s]         ********************************************************************************
+[0.590s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.590s]         Instead, use pypa/build, pypa/installer or other
+[0.590s]         standards-based tools.
+[0.590s] 
+[0.590s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.590s]         ********************************************************************************
+[0.590s] 
+[0.590s] !!
+[0.590s]   easy_install.initialize_options(self)
+[0.689s] Removing /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[0.712s] Invoked command in '/home/nextup/ros2_ws2/src/build/actions_py' returned '0': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/src/build/actions_py/prefix_override:/home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages:/home/nextup/ros2_ws2/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/nextup/ros2_ws2/src/build/actions_py/build
+[0.714s] Invoking command in '/home/nextup/ros2_ws2/src/actions_py': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/src/build/actions_py/prefix_override:/home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages:/home/nextup/ros2_ws2/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/nextup/ros2_ws2/src/build/actions_py/build install --record /home/nextup/ros2_ws2/src/build/actions_py/install.log --single-version-externally-managed install_data --force
+[0.843s] running egg_info
+[0.849s] writing ../build/actions_py/actions_py.egg-info/PKG-INFO
+[0.850s] writing dependency_links to ../build/actions_py/actions_py.egg-info/dependency_links.txt
+[0.850s] writing entry points to ../build/actions_py/actions_py.egg-info/entry_points.txt
+[0.850s] writing requirements to ../build/actions_py/actions_py.egg-info/requires.txt
+[0.850s] writing top-level names to ../build/actions_py/actions_py.egg-info/top_level.txt
+[0.864s] reading manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] copying actions_py/count_until_server.py -> /home/nextup/ros2_ws2/src/build/actions_py/build/lib/actions_py
+[0.865s] copying actions_py/count_until_client.py -> /home/nextup/ros2_ws2/src/build/actions_py/build/lib/actions_py
+[0.865s] copying actions_py/__init__.py -> /home/nextup/ros2_ws2/src/build/actions_py/build/lib/actions_py
+[0.865s] running install
+[0.868s] running install_lib
+[0.874s] creating /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.874s] copying /home/nextup/ros2_ws2/src/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.874s] copying /home/nextup/ros2_ws2/src/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.874s] copying /home/nextup/ros2_ws2/src/build/actions_py/build/lib/actions_py/__init__.py -> /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.875s] byte-compiling /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_server.py to count_until_server.cpython-310.pyc
+[0.875s] byte-compiling /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_client.py to count_until_client.cpython-310.pyc
+[0.875s] byte-compiling /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py/__init__.py to __init__.cpython-310.pyc
+[0.875s] running install_data
+[0.875s] copying resource/actions_py -> /home/nextup/ros2_ws2/src/install/actions_py/share/ament_index/resource_index/packages
+[0.876s] copying package.xml -> /home/nextup/ros2_ws2/src/install/actions_py/share/actions_py
+[0.876s] running install_egg_info
+[0.883s] Copying ../build/actions_py/actions_py.egg-info to /home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[0.884s] running install_scripts
+[0.952s] Installing count_until_client script to /home/nextup/ros2_ws2/src/install/actions_py/lib/actions_py
+[0.952s] Installing count_until_server script to /home/nextup/ros2_ws2/src/install/actions_py/lib/actions_py
+[0.952s] writing list of installed files to '/home/nextup/ros2_ws2/src/build/actions_py/install.log'
+[0.974s] Invoked command in '/home/nextup/ros2_ws2/src/actions_py' returned '0': AMENT_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nextup/ros2_ws2/src/build/actions_py/prefix_override:/home/nextup/ros2_ws2/src/install/actions_py/lib/python3.10/site-packages:/home/nextup/ros2_ws2/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/nextup/ros2_ws2/src/build/actions_py/build install --record /home/nextup/ros2_ws2/src/build/actions_py/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,91 @@
+[0.244s] Invoking command in '/home/anjali/arduinoboot_ws/src/build/ardunio_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/ardunio_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/ardunio_cpp_examples
+[0.289s] -- The C compiler identification is GNU 11.4.0
+[0.348s] -- The CXX compiler identification is GNU 11.4.0
+[0.355s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.520s] -- Detecting CXX compile features
+[0.520s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.107s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.186s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.228s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.233s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.242s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.354s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.357s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.445s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.467s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.511s] -- Looking for pthread.h
+[1.567s] -- Looking for pthread.h - found
+[1.567s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.619s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.620s] -- Found Threads: TRUE  
+[1.724s] -- Found arduniobot_msgs: 0.0.0 (/home/anjali/arduinoboot_ws/install/arduniobot_msgs/share/arduniobot_msgs/cmake)
+[1.734s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.792s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.834s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.851s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.420s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.432s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.452s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.490s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.576s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.814s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.815s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.351s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.684s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.839s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.208s] -- Configuring done
+[4.248s] -- Generating done
+[4.250s] -- Build files have been written to: /home/anjali/arduinoboot_ws/src/build/ardunio_cpp_examples
+[4.264s] Invoked command in '/home/anjali/arduinoboot_ws/src/build/ardunio_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/ardunio_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/ardunio_cpp_examples
+[4.265s] Invoking command in '/home/anjali/arduinoboot_ws/src/build/ardunio_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/src/build/ardunio_cpp_examples -- -j16 -l16
+[4.312s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[4.313s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[4.313s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[4.313s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[4.313s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[4.313s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[4.313s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[4.314s] [ 45%] [32mBuilding CXX object CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o[0m
+[4.315s] [ 45%] [32mBuilding CXX object CMakeFiles/simple_action_client_node.dir/rclcpp_components/node_main_simple_action_client_node.cpp.o[0m
+[4.321s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[4.595s] [01m[K/home/anjali/arduinoboot_ws/src/ardunio_cpp_examples/src/simple_action_server.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Karduniobot_msgs/action/fibonacci.hpp: No such file or directory
+[4.596s]     4 | #include [01;31m[K"arduniobot_msgs/action/fibonacci.hpp"[m[K
+[4.596s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.596s] compilation terminated.
+[4.596s] [01m[K/home/anjali/arduinoboot_ws/src/ardunio_cpp_examples/src/simple_action_client.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Karduniobot_msgs/action/fibonacci.hpp: No such file or directory
+[4.596s]     4 | #include [01;31m[K"arduniobot_msgs/action/fibonacci.hpp"[m[K
+[4.596s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.596s] compilation terminated.
+[4.603s] gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:76: CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+[4.604s] gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:76: CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o] Error 1
+[4.604s] gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/simple_action_server.dir/all] Error 2
+[4.604s] gmake[1]: *** Waiting for unfinished jobs....
+[4.604s] gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/simple_action_client.dir/all] Error 2
+[8.525s] [ 55%] [32m[1mLinking CXX executable simple_parameter[0m
+[8.717s] [ 60%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[8.728s] [ 60%] Built target simple_parameter
+[8.939s] [ 60%] Built target simple_action_server_node
+[9.590s] [ 65%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[9.659s] [ 70%] [32m[1mLinking CXX executable simple_service_server[0m
+[9.847s] [ 70%] Built target simple_action_client_node
+[9.868s] [ 70%] Built target simple_service_server
+[10.354s] [ 75%] [32m[1mLinking CXX executable simple_service_client[0m
+[10.514s] [ 75%] Built target simple_service_client
+[10.702s] [ 80%] [32m[1mLinking CXX executable simple_publisher[0m
+[10.855s] [ 80%] Built target simple_publisher
+[13.097s] [ 85%] [32m[1mLinking CXX executable simple_moveit_interface[0m
+[13.308s] [ 85%] Built target simple_moveit_interface
+[13.592s] [ 90%] [32m[1mLinking CXX executable simple_subscriber[0m
+[13.811s] [ 90%] Built target simple_subscriber
+[13.812s] gmake: *** [Makefile:146: all] Error 2

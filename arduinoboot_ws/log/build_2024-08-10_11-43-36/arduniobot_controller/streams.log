@@ -1,0 +1,11 @@
+[0.284s] Invoking command in '/home/anjali/arduinoboot_ws/build/arduniobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/build/arduniobot_controller -- -j16 -l16
+[0.344s] [ 25%] [32mBuilding CXX object CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o[0m
+[0.362s] [ 75%] Built target slider_control
+[0.378s] [01m[K/home/anjali/arduinoboot_ws/src/arduniobot_controller/src/arduniobot_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Karduniobot_controller/arduniobot_interface.hpp: No such file or directory
+[0.378s]     1 | #include [01;31m[K"arduniobot_controller/arduniobot_interface.hpp"[m[K
+[0.378s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.378s] compilation terminated.
+[0.378s] gmake[2]: *** [CMakeFiles/arduniobot_controller.dir/build.make:76: CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o] Error 1
+[0.379s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arduniobot_controller.dir/all] Error 2
+[0.380s] gmake: *** [Makefile:146: all] Error 2
+[0.408s] Invoked command in '/home/anjali/arduinoboot_ws/build/arduniobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/build/arduniobot_controller -- -j16 -l16

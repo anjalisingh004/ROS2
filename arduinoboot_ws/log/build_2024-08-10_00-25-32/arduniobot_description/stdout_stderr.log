@@ -1,0 +1,125 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anjali/arduinoboot_ws/build/arduniobot_description
+-- Install configuration: ""
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/launch
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/launch/display.launch.py
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/COLCON_IGNORE
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/setup.ps1
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/_local_setup_util_ps1.py
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/local_setup.bash
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/.colcon_install_layout
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/local_setup.ps1
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/_local_setup_util_sh.py
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/setup.bash
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/setup.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/local_setup.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/local_setup.zsh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/install/setup.zsh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/base_plate.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/triangular_link.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/horizontal_arm.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/link.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/COLCON_IGNORE
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/latest
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/build_2024-07-20_15-14-42
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/build_2024-07-20_15-14-42/events.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/build_2024-07-20_15-14-42/logger_all.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/latest_build
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/build_2024-07-24_00-46-40
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/build_2024-07-24_00-46-40/events.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/log/build_2024-07-24_00-46-40/logger_all.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/plate.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/basement.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/right_finger.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/forward_drive_arm.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/round_plate.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/claw_support.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/vertical_drive_arm.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/left_finger.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/build
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/build/COLCON_IGNORE
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/build/.built_by
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/meshes/servo_plate.STL
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/ground_plane
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/ground_plane/model-1_3.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/ground_plane/model.config
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/ground_plane/model-1_2.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/ground_plane/model-1_4.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/ground_plane/model.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/sun
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/sun/model-1_3.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/sun/model.config
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/sun/model-1_2.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/sun/model-1_4.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/models/sun/model.sdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/arduniobot_ros2_control.xacro
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/arduniobot_gazebo.xacro
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/COLCON_IGNORE
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/setup.ps1
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/_local_setup_util_ps1.py
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/local_setup.bash
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/.colcon_install_layout
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/local_setup.ps1
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/_local_setup_util_sh.py
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/setup.bash
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/setup.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/local_setup.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/local_setup.zsh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/install/setup.zsh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/COLCON_IGNORE
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/latest
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-47-13
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-47-13/events.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-47-13/logger_all.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-09-10
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-09-10/events.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-09-10/logger_all.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-33-12
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-33-12/events.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_13-33-12/logger_all.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/latest_build
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_22-49-53
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_22-49-53/events.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/log/build_2024-07-22_22-49-53/logger_all.log
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/arduniobot.urdf
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/build
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/build/COLCON_IGNORE
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/build/.built_by
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/urdf/arduniobot.urdf.xacro
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/ament_index/resource_index/package_run_dependencies/arduniobot_description
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/ament_index/resource_index/parent_prefix_path/arduniobot_description
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/environment/ament_prefix_path.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/environment/path.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/environment/path.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/local_setup.bash
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/local_setup.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/local_setup.zsh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/local_setup.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/package.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/ament_index/resource_index/packages/arduniobot_description
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/cmake/arduniobot_descriptionConfig.cmake
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/cmake/arduniobot_descriptionConfig-version.cmake
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_description/share/arduniobot_description/package.xml

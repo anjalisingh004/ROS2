@@ -1,0 +1,2 @@
+Invoking command in '/home/nextup/ros2_ws2/src/build/my_robot_interfaces': /usr/bin/cmake /home/nextup/ros2_ws2/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws2/src/install/my_robot_interfaces
+Invoked command in '/home/nextup/ros2_ws2/src/build/my_robot_interfaces' returned '1': /usr/bin/cmake /home/nextup/ros2_ws2/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws2/src/install/my_robot_interfaces

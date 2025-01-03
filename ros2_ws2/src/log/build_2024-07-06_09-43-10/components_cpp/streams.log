@@ -1,0 +1,27 @@
+[0.208s] Invoking command in '/home/nextup/ros2_ws2/src/build/components_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/components_cpp -- -j16 -l16
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target number_pub_component[0m
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target manual_composition[0m
+[0.257s] [ 33%] Built target number_pub_component
+[0.268s] [100%] Built target manual_composition
+[0.395s] Invoked command in '/home/nextup/ros2_ws2/src/build/components_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/components_cpp -- -j16 -l16
+[0.432s] Invoking command in '/home/nextup/ros2_ws2/src/build/components_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/components_cpp
+[0.444s] -- Install configuration: ""
+[0.444s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/lib/libnumber_pub_component.so
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/lib/components_cpp/manual_composition
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/ament_index/resource_index/package_run_dependencies/components_cpp
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/ament_index/resource_index/parent_prefix_path/components_cpp
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/environment/ament_prefix_path.sh
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/environment/ament_prefix_path.dsv
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/environment/path.sh
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/environment/path.dsv
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/local_setup.bash
+[0.445s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/local_setup.sh
+[0.446s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/local_setup.zsh
+[0.446s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/local_setup.dsv
+[0.446s] -- Installing: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/package.dsv
+[0.446s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/ament_index/resource_index/packages/components_cpp
+[0.446s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/ament_index/resource_index/rclcpp_components/components_cpp
+[0.446s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/cmake/components_cppConfig.cmake
+[0.447s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/cmake/components_cppConfig-version.cmake
+[0.447s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/components_cpp/share/components_cpp/package.xml
+[0.461s] Invoked command in '/home/nextup/ros2_ws2/src/build/components_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/components_cpp

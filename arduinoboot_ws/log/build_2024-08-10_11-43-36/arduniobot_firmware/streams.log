@@ -1,0 +1,23 @@
+[0.286s] Invoking command in '/home/anjali/arduinoboot_ws/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/build/arduniobot_firmware -- -j16 -l16
+[0.357s] [ 50%] Built target simple_serial_transmitter
+[0.358s] [100%] Built target simple_serial_receiver
+[0.389s] Invoked command in '/home/anjali/arduinoboot_ws/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/build/arduniobot_firmware -- -j16 -l16
+[0.427s] Invoking command in '/home/anjali/arduinoboot_ws/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anjali/arduinoboot_ws/build/arduniobot_firmware
+[0.437s] -- Install configuration: ""
+[0.440s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver
+[0.440s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter
+[0.440s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduniobot_firmware
+[0.441s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduniobot_firmware
+[0.442s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.sh
+[0.442s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.dsv
+[0.443s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.sh
+[0.443s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.dsv
+[0.444s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.bash
+[0.444s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.sh
+[0.444s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.zsh
+[0.444s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.dsv
+[0.444s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv
+[0.445s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/packages/arduniobot_firmware
+[0.445s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig.cmake
+[0.445s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig-version.cmake
+[0.445s] -- Up-to-date: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.xml

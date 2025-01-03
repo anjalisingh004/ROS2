@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/anjali/arduinoboot_ws/src/build/ardniobot_remote': AMENT_PREFIX_PATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs:/home/anjali/arduinoboot_ws/install/ardunioboty_utils:/home/anjali/arduinoboot_ws/install/arduniobot_msgs:/home/anjali/arduinoboot_ws/install/arduniobot_movelt:/home/anjali/arduinoboot_ws/install/arduniobot_description:/home/anjali/arduinoboot_ws/install/arduniobot_controller:/home/anjali/arduinoboot_ws/install/ardunio_cpp_examples:/home/anjali/arduinoboot_ws/install:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anjali/arduinoboot_ws/src/ardniobot_remote -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/ardniobot_remote
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.409s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.741s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.925s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.976s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.982s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.993s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.007s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.103s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.106s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.252s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.296s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.366s] -- Looking for pthread.h
+[2.473s] -- Looking for pthread.h - found
+[2.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.612s] -- Found Threads: TRUE  
+[2.826s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.926s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.017s] -- Found arduniobot_msgs: 0.0.0 (/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs/share/arduniobot_msgs/cmake)
+[3.039s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[3.082s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.326s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.354s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.399s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.473s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.677s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.826s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.826s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.209s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.631s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.823s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[6.156s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[6.156s] -- Configuring incomplete, errors occurred!
+[6.157s] See also "/home/anjali/arduinoboot_ws/src/build/ardniobot_remote/CMakeFiles/CMakeOutput.log".
+[6.157s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[6.157s]   ament_target_dependencies() the passed package name 'arduinobot_msgs' was
+[6.157s]   not found before
+[6.157s] Call Stack (most recent call first):
+[6.157s]   CMakeLists.txt:22 (ament_target_dependencies)
+[6.157s] 
+[6.157s] [0m
+[6.181s] Invoked command in '/home/anjali/arduinoboot_ws/src/build/ardniobot_remote' returned '1': AMENT_PREFIX_PATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs:/home/anjali/arduinoboot_ws/install/ardunioboty_utils:/home/anjali/arduinoboot_ws/install/arduniobot_msgs:/home/anjali/arduinoboot_ws/install/arduniobot_movelt:/home/anjali/arduinoboot_ws/install/arduniobot_description:/home/anjali/arduinoboot_ws/install/arduniobot_controller:/home/anjali/arduinoboot_ws/install/ardunio_cpp_examples:/home/anjali/arduinoboot_ws/install:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anjali/arduinoboot_ws/src/install/arduniobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anjali/arduinoboot_ws/src/ardniobot_remote -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/ardniobot_remote

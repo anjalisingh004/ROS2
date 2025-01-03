@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[100%] Built target simple_serial_receiver
+[100%] Built target simple_serial_transmitter
+-- Install configuration: ""
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver
+-- Set runtime path of "/home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver" to ""
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter
+-- Set runtime path of "/home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter" to ""
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduniobot_firmware
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduniobot_firmware
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.bash
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.sh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.zsh
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/packages/arduniobot_firmware
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig.cmake
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig-version.cmake
+-- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.xml

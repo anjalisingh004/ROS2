@@ -1,0 +1,69 @@
+[0.006s] Invoking command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/arduniobot_firmware -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.710s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.737s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.739s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.745s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.807s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.808s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.870s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.888s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.924s] -- Looking for pthread.h
+[0.975s] -- Looking for pthread.h - found
+[0.975s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.026s] -- Found Threads: TRUE  
+[1.136s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[1.141s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.141s] -- Checking for module 'libserial'
+[1.159s] --   Found libserial, version 1.0.0
+[1.225s] -- Configuring done
+[1.232s] -- Generating done
+[1.233s] -- Build files have been written to: /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware
+[1.242s] Invoked command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/arduniobot_firmware -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware
+[1.244s] Invoking command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware -- -j16 -l16
+[1.280s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[1.280s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[4.217s] [ 75%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[4.343s] [ 75%] Built target simple_serial_receiver
+[7.101s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[7.481s] [100%] Built target simple_serial_transmitter
+[7.493s] Invoked command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware -- -j16 -l16
+[7.526s] Invoking command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware
+[7.532s] -- Install configuration: ""
+[7.532s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver
+[7.534s] -- Set runtime path of "/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver" to ""
+[7.535s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter
+[7.539s] -- Set runtime path of "/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter" to ""
+[7.539s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduniobot_firmware
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduniobot_firmware
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.sh
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.dsv
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.sh
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.dsv
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.bash
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.sh
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.zsh
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.dsv
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/ament_index/resource_index/packages/arduniobot_firmware
+[7.540s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig.cmake
+[7.541s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig-version.cmake
+[7.541s] -- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.xml
+[7.542s] Invoked command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware

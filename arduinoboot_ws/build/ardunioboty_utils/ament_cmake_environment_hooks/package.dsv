@@ -1,0 +1,4 @@
+source;share/ardunioboty_utils/local_setup.bash
+source;share/ardunioboty_utils/local_setup.dsv
+source;share/ardunioboty_utils/local_setup.sh
+source;share/ardunioboty_utils/local_setup.zsh

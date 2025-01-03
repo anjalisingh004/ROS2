@@ -1,0 +1,1 @@
+Invoking command in '/home/anjali/arduinoboot_ws/src/build/ardunio_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/src/build/ardunio_cpp_examples -- -j16 -l16

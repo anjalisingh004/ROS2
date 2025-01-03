@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'ardniobot_remote'}
+[0.000155] (-) JobUnselected: {'identifier': 'arduinoboot_py_examples'}
+[0.000168] (-) JobUnselected: {'identifier': 'ardunio_cpp_examples'}
+[0.000177] (-) JobUnselected: {'identifier': 'arduniobot_bringup'}
+[0.000186] (-) JobUnselected: {'identifier': 'arduniobot_controller'}
+[0.000198] (-) JobUnselected: {'identifier': 'arduniobot_description'}
+[0.000206] (-) JobUnselected: {'identifier': 'arduniobot_movelt'}
+[0.000213] (-) JobUnselected: {'identifier': 'arduniobot_msgs'}
+[0.000222] (-) JobUnselected: {'identifier': 'ardunioboty_utils'}
+[0.000235] (arduniobot_firmware) JobQueued: {'identifier': 'arduniobot_firmware', 'dependencies': OrderedDict()}
+[0.000246] (arduniobot_firmware) JobStarted: {'identifier': 'arduniobot_firmware'}
+[0.004558] (arduniobot_firmware) JobProgress: {'identifier': 'arduniobot_firmware', 'progress': 'cmake'}
+[0.004754] (arduniobot_firmware) Command: {'cmd': ['/usr/bin/cmake', '/home/anjali/arduinoboot_ws/src/arduniobot_firmware', '-DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware'], 'cwd': '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anjali'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anjali'), ('OLDPWD', '/home/anjali/arduinoboot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5686'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'anjali'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anjali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/anjali/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/singh:@/tmp/.ICE-unix/5663,unix/singh:/tmp/.ICE-unix/5663'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54127e9a_fad8_48a9_a36a_93e5bebaaa46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1262'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/home/anjali/arduinoboot_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.064110] (arduniobot_firmware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099335] (-) TimerEvent: {}
+[0.106328] (arduniobot_firmware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.110836] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.157606] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161807] (arduniobot_firmware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.161925] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.162077] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164276] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199484] (-) TimerEvent: {}
+[0.218050] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.222947] (arduniobot_firmware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.223261] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.223695] (arduniobot_firmware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.225241] (arduniobot_firmware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299580] (-) TimerEvent: {}
+[0.399887] (-) TimerEvent: {}
+[0.500277] (-) TimerEvent: {}
+[0.600541] (-) TimerEvent: {}
+[0.652160] (arduniobot_firmware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700786] (-) TimerEvent: {}
+[0.710174] (arduniobot_firmware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.736710] (arduniobot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.739604] (arduniobot_firmware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.744695] (arduniobot_firmware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.752787] (arduniobot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.764186] (arduniobot_firmware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800995] (-) TimerEvent: {}
+[0.807097] (arduniobot_firmware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.808628] (arduniobot_firmware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.869794] (arduniobot_firmware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.887906] (arduniobot_firmware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.901119] (-) TimerEvent: {}
+[0.917851] (arduniobot_firmware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.924007] (arduniobot_firmware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.974989] (arduniobot_firmware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.975292] (arduniobot_firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001311] (-) TimerEvent: {}
+[1.025217] (arduniobot_firmware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.026334] (arduniobot_firmware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101438] (-) TimerEvent: {}
+[1.135895] (arduniobot_firmware) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.140735] (arduniobot_firmware) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.141377] (arduniobot_firmware) StdoutLine: {'line': b"-- Checking for module 'libserial'\n"}
+[1.158959] (arduniobot_firmware) StdoutLine: {'line': b'--   Found libserial, version 1.0.0\n'}
+[1.201666] (-) TimerEvent: {}
+[1.224973] (arduniobot_firmware) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.232285] (arduniobot_firmware) StdoutLine: {'line': b'-- Generating done\n'}
+[1.233375] (arduniobot_firmware) StdoutLine: {'line': b'-- Build files have been written to: /home/anjali/arduinoboot_ws/src/build/arduniobot_firmware\n'}
+[1.241719] (arduniobot_firmware) CommandEnded: {'returncode': 0}
+[1.242316] (arduniobot_firmware) JobProgress: {'identifier': 'arduniobot_firmware', 'progress': 'build'}
+[1.243500] (arduniobot_firmware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware', '--', '-j16', '-l16'], 'cwd': '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anjali'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anjali'), ('OLDPWD', '/home/anjali/arduinoboot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5686'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'anjali'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anjali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/anjali/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/singh:@/tmp/.ICE-unix/5663,unix/singh:/tmp/.ICE-unix/5663'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54127e9a_fad8_48a9_a36a_93e5bebaaa46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1262'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/home/anjali/arduinoboot_ws/install:/opt/ros/humble')]), 'shell': False}
+[1.279824] (arduniobot_firmware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o\x1b[0m\n'}
+[1.280054] (arduniobot_firmware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o\x1b[0m\n'}
+[1.301904] (-) TimerEvent: {}
+[1.402350] (-) TimerEvent: {}
+[1.502778] (-) TimerEvent: {}
+[1.603249] (-) TimerEvent: {}
+[1.703731] (-) TimerEvent: {}
+[1.804173] (-) TimerEvent: {}
+[1.904621] (-) TimerEvent: {}
+[2.005104] (-) TimerEvent: {}
+[2.105594] (-) TimerEvent: {}
+[2.206030] (-) TimerEvent: {}
+[2.306472] (-) TimerEvent: {}
+[2.406903] (-) TimerEvent: {}
+[2.507262] (-) TimerEvent: {}
+[2.607706] (-) TimerEvent: {}
+[2.708158] (-) TimerEvent: {}
+[2.808607] (-) TimerEvent: {}
+[2.909039] (-) TimerEvent: {}
+[3.009475] (-) TimerEvent: {}
+[3.109949] (-) TimerEvent: {}
+[3.210378] (-) TimerEvent: {}
+[3.310810] (-) TimerEvent: {}
+[3.411130] (-) TimerEvent: {}
+[3.511446] (-) TimerEvent: {}
+[3.611916] (-) TimerEvent: {}
+[3.712362] (-) TimerEvent: {}
+[3.812839] (-) TimerEvent: {}
+[3.913335] (-) TimerEvent: {}
+[4.013752] (-) TimerEvent: {}
+[4.114064] (-) TimerEvent: {}
+[4.214518] (-) TimerEvent: {}
+[4.217480] (arduniobot_firmware) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable simple_serial_receiver\x1b[0m\n'}
+[4.314778] (-) TimerEvent: {}
+[4.343517] (arduniobot_firmware) StdoutLine: {'line': b'[ 75%] Built target simple_serial_receiver\n'}
+[4.414904] (-) TimerEvent: {}
+[4.515258] (-) TimerEvent: {}
+[4.615584] (-) TimerEvent: {}
+[4.715923] (-) TimerEvent: {}
+[4.816295] (-) TimerEvent: {}
+[4.916750] (-) TimerEvent: {}
+[5.017190] (-) TimerEvent: {}
+[5.117536] (-) TimerEvent: {}
+[5.218106] (-) TimerEvent: {}
+[5.318805] (-) TimerEvent: {}
+[5.420017] (-) TimerEvent: {}
+[5.521023] (-) TimerEvent: {}
+[5.621440] (-) TimerEvent: {}
+[5.721896] (-) TimerEvent: {}
+[5.822467] (-) TimerEvent: {}
+[5.922769] (-) TimerEvent: {}
+[6.023066] (-) TimerEvent: {}
+[6.123393] (-) TimerEvent: {}
+[6.224092] (-) TimerEvent: {}
+[6.325008] (-) TimerEvent: {}
+[6.425392] (-) TimerEvent: {}
+[6.525806] (-) TimerEvent: {}
+[6.626088] (-) TimerEvent: {}
+[6.726464] (-) TimerEvent: {}
+[6.826877] (-) TimerEvent: {}
+[6.927197] (-) TimerEvent: {}
+[7.027515] (-) TimerEvent: {}
+[7.100694] (arduniobot_firmware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_serial_transmitter\x1b[0m\n'}
+[7.127723] (-) TimerEvent: {}
+[7.228383] (-) TimerEvent: {}
+[7.328792] (-) TimerEvent: {}
+[7.429355] (-) TimerEvent: {}
+[7.481505] (arduniobot_firmware) StdoutLine: {'line': b'[100%] Built target simple_serial_transmitter\n'}
+[7.493059] (arduniobot_firmware) CommandEnded: {'returncode': 0}
+[7.516409] (arduniobot_firmware) JobProgress: {'identifier': 'arduniobot_firmware', 'progress': 'install'}
+[7.525879] (arduniobot_firmware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware'], 'cwd': '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anjali'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anjali'), ('OLDPWD', '/home/anjali/arduinoboot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5686'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'anjali'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anjali'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/anjali/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/singh:@/tmp/.ICE-unix/5663,unix/singh:/tmp/.ICE-unix/5663'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54127e9a_fad8_48a9_a36a_93e5bebaaa46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1262'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anjali/arduinoboot_ws/src/build/arduniobot_firmware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/home/anjali/arduinoboot_ws/install:/opt/ros/humble')]), 'shell': False}
+[7.529416] (-) TimerEvent: {}
+[7.532032] (arduniobot_firmware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.532352] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver\n'}
+[7.533598] (arduniobot_firmware) StdoutLine: {'line': b'-- Set runtime path of "/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver" to ""\n'}
+[7.534671] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter\n'}
+[7.539279] (arduniobot_firmware) StdoutLine: {'line': b'-- Set runtime path of "/home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter" to ""\n'}
+[7.539528] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduniobot_firmware\n'}
+[7.539765] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduniobot_firmware\n'}
+[7.539883] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.sh\n'}
+[7.539998] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.dsv\n'}
+[7.540092] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.sh\n'}
+[7.540196] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.dsv\n'}
+[7.540274] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.bash\n'}
+[7.540359] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.sh\n'}
+[7.540440] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.zsh\n'}
+[7.540502] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.dsv\n'}
+[7.540563] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv\n'}
+[7.540624] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/ament_index/resource_index/packages/arduniobot_firmware\n'}
+[7.540685] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig.cmake\n'}
+[7.540750] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig-version.cmake\n'}
+[7.540811] (arduniobot_firmware) StdoutLine: {'line': b'-- Installing: /home/anjali/arduinoboot_ws/src/install/arduniobot_firmware/share/arduniobot_firmware/package.xml\n'}
+[7.541951] (arduniobot_firmware) CommandEnded: {'returncode': 0}
+[7.578488] (arduniobot_firmware) JobEnded: {'identifier': 'arduniobot_firmware', 'rc': 0}
+[7.579053] (-) EventReactorShutdown: {}

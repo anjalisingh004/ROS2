@@ -1,0 +1,1 @@
+Invoking command in '/home/anjali/arduinoboot_ws/build/arduniobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake /home/anjali/arduinoboot_ws/src/arduniobot_controller -DCMAKE_INSTALL_PREFIX=/home/anjali/arduinoboot_ws/install/arduniobot_controller

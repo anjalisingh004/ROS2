@@ -1,0 +1,115 @@
+[0.021s] Invoking command in '/home/anjali/arduinoboot_ws/src/build/arduniobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/src/build/arduniobot_msgs -- -j16 -l16
+[0.247s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.247s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.248s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.250s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.517s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.814s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.831s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.846s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.846s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.846s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.861s] -- Configuring done
+[0.881s] -- Generating done
+[0.883s] -- Build files have been written to: /home/anjali/arduinoboot_ws/src/build/arduniobot_msgs
+[0.901s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.909s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.916s] [  3%] Built target ament_cmake_python_copy_arduniobot_msgs
+[1.143s] running egg_info
+[1.152s] writing arduniobot_msgs.egg-info/PKG-INFO
+[1.152s] writing dependency_links to arduniobot_msgs.egg-info/dependency_links.txt
+[1.153s] writing top-level names to arduniobot_msgs.egg-info/top_level.txt
+[1.177s] reading manifest file 'arduniobot_msgs.egg-info/SOURCES.txt'
+[1.177s] writing manifest file 'arduniobot_msgs.egg-info/SOURCES.txt'
+[1.210s] [  3%] Built target ament_cmake_python_build_arduniobot_msgs_egg
+[1.465s] [  3%] Built target arduniobot_msgs__cpp
+[1.474s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.474s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.474s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.476s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_generator_c[0m
+[1.487s] [ 11%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/arduniobot_msgs/srv/detail/euler_to_quaternion__functions.c.o[0m
+[1.487s] [ 11%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/arduniobot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[1.488s] [ 14%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/arduniobot_msgs/action/detail/arduniobot_task__functions.c.o[0m
+[1.488s] [ 14%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/arduniobot_msgs/srv/detail/quaternion_to_euler__functions.c.o[0m
+[1.488s] [ 15%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_c.dir/rosidl_generator_c/arduniobot_msgs/action/detail/fibonacci__functions.c.o[0m
+[1.617s] [ 17%] [32m[1mLinking C shared library libarduniobot_msgs__rosidl_generator_c.so[0m
+[1.647s] [ 17%] Built target arduniobot_msgs__rosidl_generator_c
+[1.655s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.658s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.658s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.851s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_cpp[0m
+[1.864s] [ 23%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduniobot_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[1.864s] [ 26%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduniobot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[1.864s] [ 26%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduniobot_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[1.866s] [ 30%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduniobot_msgs/action/fibonacci__type_support.cpp.o[0m
+[1.866s] [ 30%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduniobot_msgs/action/arduniobot_task__type_support.cpp.o[0m
+[1.976s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.991s] [ 31%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduniobot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[1.993s] [ 36%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduniobot_msgs/srv/detail/euler_to_quaternion__type_support.cpp.o[0m
+[1.994s] [ 36%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduniobot_msgs/action/detail/arduniobot_task__type_support.cpp.o[0m
+[1.994s] [ 36%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduniobot_msgs/srv/detail/quaternion_to_euler__type_support.cpp.o[0m
+[1.995s] [ 38%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduniobot_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[2.191s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.219s] [ 39%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduniobot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[2.220s] [ 41%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduniobot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o[0m
+[2.221s] [ 42%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduniobot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[2.223s] [ 44%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduniobot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o[0m
+[2.288s] [ 46%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduniobot_msgs/action/detail/dds_fastrtps/arduniobot_task__type_support.cpp.o[0m
+[2.419s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_c[0m
+[2.448s] [ 47%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduniobot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[2.478s] [ 49%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduniobot_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[2.525s] [ 50%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduniobot_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[2.601s] [ 52%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduniobot_msgs/action/fibonacci__type_support.cpp.o[0m
+[2.616s] [ 53%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arduniobot_msgs/action/arduniobot_task__type_support.cpp.o[0m
+[2.650s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.694s] [ 55%] [32m[1mLinking CXX shared library libarduniobot_msgs__rosidl_typesupport_cpp.so[0m
+[2.699s] [ 61%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduniobot_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[2.700s] [ 61%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduniobot_msgs/srv/detail/euler_to_quaternion__type_support_c.cpp.o[0m
+[2.700s] [ 61%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduniobot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[2.700s] [ 61%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduniobot_msgs/srv/detail/quaternion_to_euler__type_support_c.cpp.o[0m
+[2.704s] [ 63%] [32mBuilding CXX object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduniobot_msgs/action/detail/arduniobot_task__type_support_c.cpp.o[0m
+[2.709s] [ 65%] [32m[1mLinking CXX shared library libarduniobot_msgs__rosidl_typesupport_c.so[0m
+[2.720s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_introspection_c[0m
+[2.749s] [ 66%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduniobot_msgs/srv/detail/euler_to_quaternion__type_support.c.o[0m
+[2.767s] [ 68%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduniobot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[2.802s] [ 68%] Built target arduniobot_msgs__rosidl_typesupport_cpp
+[2.821s] [ 68%] Built target arduniobot_msgs__rosidl_typesupport_c
+[2.826s] [ 69%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduniobot_msgs/srv/detail/quaternion_to_euler__type_support.c.o[0m
+[2.845s] [ 73%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduniobot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[2.846s] [ 73%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduniobot_msgs/action/detail/arduniobot_task__type_support.c.o[0m
+[2.963s] [ 74%] [32m[1mLinking C shared library libarduniobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.028s] [ 74%] Built target arduniobot_msgs__rosidl_typesupport_introspection_c
+[3.176s] [ 76%] [32m[1mLinking CXX shared library libarduniobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.231s] [ 77%] [32m[1mLinking CXX shared library libarduniobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.236s] [ 79%] [32m[1mLinking CXX shared library libarduniobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.238s] [ 79%] Built target arduniobot_msgs__rosidl_typesupport_introspection_cpp
+[3.295s] [ 79%] Built target arduniobot_msgs__rosidl_typesupport_fastrtps_cpp
+[3.298s] [ 79%] Built target arduniobot_msgs__rosidl_typesupport_fastrtps_c
+[3.311s] [ 79%] Built target arduniobot_msgs
+[3.324s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.251s] [ 80%] Built target arduniobot_msgs__py
+[4.258s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_generator_py[0m
+[4.269s] [ 84%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduniobot_msgs/srv/_euler_to_quaternion_s.c.o[0m
+[4.269s] [ 84%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduniobot_msgs/action/_fibonacci_s.c.o[0m
+[4.270s] [ 87%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduniobot_msgs/srv/_add_two_ints_s.c.o[0m
+[4.270s] [ 87%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduniobot_msgs/srv/_quaternion_to_euler_s.c.o[0m
+[4.271s] [ 88%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduniobot_msgs/action/_arduniobot_task_s.c.o[0m
+[4.387s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/arduniobot_msgs/libarduniobot_msgs__rosidl_generator_py.so[0m
+[4.415s] [ 90%] Built target arduniobot_msgs__rosidl_generator_py
+[4.423s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.423s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_c__pyext[0m
+[4.423s] [35m[1mConsolidate compiler generated dependencies of target arduniobot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.433s] [ 95%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arduniobot_msgs/_arduniobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.433s] [ 95%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arduniobot_msgs/_arduniobot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.433s] [ 95%] [32mBuilding C object CMakeFiles/arduniobot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arduniobot_msgs/_arduniobot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.553s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arduniobot_msgs/arduniobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.553s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arduniobot_msgs/arduniobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.553s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arduniobot_msgs/arduniobot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.585s] [100%] Built target arduniobot_msgs__rosidl_typesupport_introspection_c__pyext
+[4.585s] [100%] Built target arduniobot_msgs__rosidl_typesupport_c__pyext
+[4.586s] [100%] Built target arduniobot_msgs__rosidl_typesupport_fastrtps_c__pyext

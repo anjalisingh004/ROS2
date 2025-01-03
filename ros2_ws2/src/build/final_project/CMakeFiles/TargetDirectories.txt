@@ -1,0 +1,12 @@
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/uninstall.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/final_project_uninstall.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/final_project_component.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/turtlebot_control_component.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/final_project_step3.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/test.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/edit_cache.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/rebuild_cache.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/list_install_components.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/install.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/install/local.dir
+/home/nextup/ros2_ws2/src/build/final_project/CMakeFiles/install/strip.dir

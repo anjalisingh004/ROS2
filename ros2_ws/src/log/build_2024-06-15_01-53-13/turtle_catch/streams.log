@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/nextup/ros2_ws/src/build/turtle_catch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws/src/build/turtle_catch -- -j16 -l16
+[0.041s] Invoked command in '/home/nextup/ros2_ws/src/build/turtle_catch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws/src/build/turtle_catch -- -j16 -l16
+[0.070s] Invoking command in '/home/nextup/ros2_ws/src/build/turtle_catch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws/src/build/turtle_catch
+[0.076s] -- Install configuration: ""
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/ament_index/resource_index/package_run_dependencies/turtle_catch
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/ament_index/resource_index/parent_prefix_path/turtle_catch
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/ament_prefix_path.sh
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/ament_prefix_path.dsv
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/path.sh
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/environment/path.dsv
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.bash
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.sh
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.zsh
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/local_setup.dsv
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/package.dsv
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/ament_index/resource_index/packages/turtle_catch
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/cmake/turtle_catchConfig.cmake
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/cmake/turtle_catchConfig-version.cmake
+[0.076s] -- Up-to-date: /home/nextup/ros2_ws/src/install/turtle_catch/share/turtle_catch/package.xml
+[0.077s] Invoked command in '/home/nextup/ros2_ws/src/build/turtle_catch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws/src/build/turtle_catch

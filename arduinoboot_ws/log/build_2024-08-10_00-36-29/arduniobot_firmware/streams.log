@@ -1,0 +1,28 @@
+[0.296s] Invoking command in '/home/anjali/arduinoboot_ws/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/build/arduniobot_firmware -- -j16 -l16
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[0.370s] [100%] Built target simple_serial_receiver
+[0.370s] [100%] Built target simple_serial_transmitter
+[0.432s] Invoked command in '/home/anjali/arduinoboot_ws/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/build/arduniobot_firmware -- -j16 -l16
+[0.466s] Invoking command in '/home/anjali/arduinoboot_ws/build/arduniobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/anjali/arduinoboot_ws/build/arduniobot_firmware
+[0.478s] -- Install configuration: ""
+[0.478s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver
+[0.481s] -- Set runtime path of "/home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_receiver" to ""
+[0.481s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter
+[0.490s] -- Set runtime path of "/home/anjali/arduinoboot_ws/install/arduniobot_firmware/lib/arduniobot_firmware/simple_serial_transmitter" to ""
+[0.490s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduniobot_firmware
+[0.490s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduniobot_firmware
+[0.490s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.sh
+[0.490s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/ament_prefix_path.dsv
+[0.491s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.sh
+[0.491s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/environment/path.dsv
+[0.491s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.bash
+[0.491s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.sh
+[0.492s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.zsh
+[0.492s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/local_setup.dsv
+[0.493s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.dsv
+[0.493s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/ament_index/resource_index/packages/arduniobot_firmware
+[0.493s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig.cmake
+[0.493s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/cmake/arduniobot_firmwareConfig-version.cmake
+[0.493s] -- Installing: /home/anjali/arduinoboot_ws/install/arduniobot_firmware/share/arduniobot_firmware/package.xml
+[0.503s] Invoked command in '/home/anjali/arduinoboot_ws/build/arduniobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/anjali/arduinoboot_ws/build/arduniobot_firmware

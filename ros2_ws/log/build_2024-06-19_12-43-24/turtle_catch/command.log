@@ -1,0 +1,2 @@
+Invoking command in '/home/nextup/ros2_ws/build/turtle_catch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nextup/ros2_ws/src/turtle_catch -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws/install/turtle_catch
+Invoked command in '/home/nextup/ros2_ws/build/turtle_catch' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nextup/ros2_ws/src/turtle_catch -DCMAKE_INSTALL_PREFIX=/home/nextup/ros2_ws/install/turtle_catch

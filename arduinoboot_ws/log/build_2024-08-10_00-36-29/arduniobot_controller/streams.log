@@ -1,0 +1,13 @@
+[0.294s] Invoking command in '/home/anjali/arduinoboot_ws/build/arduniobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anjali/arduinoboot_ws/install/arduinoboot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/anjali/arduinoboot_ws/build/arduniobot_controller -- -j16 -l16
+[0.356s] [ 25%] [32mBuilding CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o[0m
+[0.359s] [ 50%] [32mBuilding CXX object CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o[0m
+[0.371s] [01m[K/home/anjali/arduinoboot_ws/src/arduniobot_controller/src/arduniobot_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Karduniobot_controller/arduniobot_interface.hpp: No such file or directory
+[0.372s]     1 | #include [01;31m[K"arduniobot_controller/arduniobot_interface.hpp"[m[K
+[0.372s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.372s] compilation terminated.
+[0.374s] gmake[2]: *** [CMakeFiles/arduniobot_controller.dir/build.make:76: CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o] Error 1
+[0.374s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arduniobot_controller.dir/all] Error 2
+[0.375s] gmake[1]: *** Waiting for unfinished jobs....
+[7.876s] [ 75%] [32m[1mLinking CXX executable slider_control[0m
+[8.144s] [ 75%] Built target slider_control
+[8.145s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,12 @@
+-- Install configuration: ""
+-- Up-to-date: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//urdf
+-- Up-to-date: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+-- Up-to-date: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//launch
+-- Up-to-date: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+-- Up-to-date: /home/nextup/ros2_ws1/src/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/nextup/ros2_ws1/src/my_robot_description/rviz": No such file or
+  directory.
+
+[0m

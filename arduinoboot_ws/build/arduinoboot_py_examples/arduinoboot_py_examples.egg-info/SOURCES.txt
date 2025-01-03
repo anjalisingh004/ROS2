@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/arduinoboot_py_examples/arduinoboot_py_examples.egg-info/PKG-INFO
+../../build/arduinoboot_py_examples/arduinoboot_py_examples.egg-info/SOURCES.txt
+../../build/arduinoboot_py_examples/arduinoboot_py_examples.egg-info/dependency_links.txt
+../../build/arduinoboot_py_examples/arduinoboot_py_examples.egg-info/requires.txt
+../../build/arduinoboot_py_examples/arduinoboot_py_examples.egg-info/top_level.txt
+../../build/arduinoboot_py_examples/arduinoboot_py_examples.egg-info/zip-safe
+arduinoboot_py_examples/__init__.py
+resource/arduinoboot_py_examples
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

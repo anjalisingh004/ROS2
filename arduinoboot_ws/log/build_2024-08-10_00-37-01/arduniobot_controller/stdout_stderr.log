@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target slider_control[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o[0m
+[ 75%] Built target slider_control
+[01m[K/home/anjali/arduinoboot_ws/src/arduniobot_controller/src/arduniobot_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Karduniobot_controller/arduniobot_interface.hpp: No such file or directory
+    1 | #include [01;31m[K"arduniobot_controller/arduniobot_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/arduniobot_controller.dir/build.make:76: CMakeFiles/arduniobot_controller.dir/src/arduniobot_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arduniobot_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

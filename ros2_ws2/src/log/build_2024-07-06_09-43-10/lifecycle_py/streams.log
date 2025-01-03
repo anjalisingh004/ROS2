@@ -1,0 +1,23 @@
+[1.046s] Invoking command in '/home/nextup/ros2_ws2/src/lifecycle_py': PYTHONPATH=/home/nextup/ros2_ws2/src/build/lifecycle_py/prefix_override:/home/nextup/ros2_ws2/src/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/lifecycle_py build --build-base /home/nextup/ros2_ws2/src/build/lifecycle_py/build install --record /home/nextup/ros2_ws2/src/build/lifecycle_py/install.log --single-version-externally-managed install_data
+[1.383s] running egg_info
+[1.402s] writing ../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[1.403s] writing dependency_links to ../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[1.403s] writing entry points to ../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[1.403s] writing requirements to ../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[1.404s] writing top-level names to ../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[1.449s] reading manifest file '../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[1.451s] writing manifest file '../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[1.452s] running build
+[1.452s] running build_py
+[1.452s] running install
+[1.459s] running install_lib
+[1.488s] running install_data
+[1.488s] running install_egg_info
+[1.518s] removing '/home/nextup/ros2_ws2/src/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.518s] Copying ../build/lifecycle_py/lifecycle_py.egg-info to /home/nextup/ros2_ws2/src/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info
+[1.519s] running install_scripts
+[1.632s] Installing lifecycle_node_manager script to /home/nextup/ros2_ws2/src/install/lifecycle_py/lib/lifecycle_py
+[1.632s] Installing move_robot_server script to /home/nextup/ros2_ws2/src/install/lifecycle_py/lib/lifecycle_py
+[1.633s] Installing number_publisher script to /home/nextup/ros2_ws2/src/install/lifecycle_py/lib/lifecycle_py
+[1.633s] writing list of installed files to '/home/nextup/ros2_ws2/src/build/lifecycle_py/install.log'
+[1.677s] Invoked command in '/home/nextup/ros2_ws2/src/lifecycle_py' returned '0': PYTHONPATH=/home/nextup/ros2_ws2/src/build/lifecycle_py/prefix_override:/home/nextup/ros2_ws2/src/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/lifecycle_py build --build-base /home/nextup/ros2_ws2/src/build/lifecycle_py/build install --record /home/nextup/ros2_ws2/src/build/lifecycle_py/install.log --single-version-externally-managed install_data

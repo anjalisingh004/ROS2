@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/nextup/ros2_ws2/src/build/lifecycle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/lifecycle_cpp -- -j16 -l16
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target move_robot_server[0m
+[0.232s] [ 50%] Built target move_robot_server
+[0.232s] [100%] Built target number_publisher
+[0.401s] Invoked command in '/home/nextup/ros2_ws2/src/build/lifecycle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/lifecycle_cpp -- -j16 -l16
+[0.438s] Invoking command in '/home/nextup/ros2_ws2/src/build/lifecycle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/lifecycle_cpp
+[0.448s] -- Install configuration: ""
+[0.449s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/lib/lifecycle_cpp/number_publisher
+[0.449s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/lib/lifecycle_cpp/move_robot_server
+[0.449s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/ament_index/resource_index/package_run_dependencies/lifecycle_cpp
+[0.449s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/ament_index/resource_index/parent_prefix_path/lifecycle_cpp
+[0.449s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.sh
+[0.450s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.dsv
+[0.450s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.sh
+[0.450s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.dsv
+[0.450s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.bash
+[0.450s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.sh
+[0.450s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.zsh
+[0.450s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.dsv
+[0.450s] -- Installing: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/package.dsv
+[0.451s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/ament_index/resource_index/packages/lifecycle_cpp
+[0.451s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig.cmake
+[0.451s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig-version.cmake
+[0.451s] -- Up-to-date: /home/nextup/ros2_ws2/src/install/lifecycle_cpp/share/lifecycle_cpp/package.xml
+[0.455s] Invoked command in '/home/nextup/ros2_ws2/src/build/lifecycle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/home/nextup/ros2_ws2/src/install/executors_py:/opt/ros/humble /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/lifecycle_cpp

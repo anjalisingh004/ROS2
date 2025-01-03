@@ -1,0 +1,4 @@
+source;share/ardniobot_remote/local_setup.bash
+source;share/ardniobot_remote/local_setup.dsv
+source;share/ardniobot_remote/local_setup.sh
+source;share/ardniobot_remote/local_setup.zsh

@@ -1,0 +1,55 @@
+[0.346s] Invoking command in '/home/nextup/ros2_ws2/src/build/final_project': CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/install/actions_cpp:/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/lifecycle_cpp:/home/nextup/ros2_ws2/install/executors_cpp:/home/nextup/ros2_ws2/install/components_cpp:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/final_project/lib:/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/final_project -- -j16 -l16
+[0.365s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.483s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.508s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.582s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.815s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.885s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.918s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.988s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.061s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.126s] -- Found my_robot_interfaces: 0.0.0 (/home/nextup/ros2_ws2/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.376s] -- Configuring done
+[1.418s] -- Generating done
+[1.422s] -- Build files have been written to: /home/nextup/ros2_ws2/src/build/final_project
+[1.500s] [ 50%] [32mBuilding CXX object CMakeFiles/final_project_component.dir/src/final_project.cpp.o[0m
+[1.502s] [ 50%] [32mBuilding CXX object CMakeFiles/final_project_step3.dir/src/final_project_step3.cpp.o[0m
+[1.503s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot_control_component.dir/src/final_project_turtlebot.cpp.o[0m
+[9.689s] [ 66%] [32m[1mLinking CXX shared library libfinal_project_component.so[0m
+[10.049s] [ 66%] Built target final_project_component
+[10.091s] [ 83%] [32m[1mLinking CXX shared library libturtlebot_control_component.so[0m
+[10.285s] [100%] [32m[1mLinking CXX executable final_project_step3[0m
+[10.306s] [100%] Built target turtlebot_control_component
+[10.532s] [100%] Built target final_project_step3
+[10.542s] Invoked command in '/home/nextup/ros2_ws2/src/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/install/actions_cpp:/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/lifecycle_cpp:/home/nextup/ros2_ws2/install/executors_cpp:/home/nextup/ros2_ws2/install/components_cpp:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/final_project/lib:/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nextup/ros2_ws2/src/build/final_project -- -j16 -l16
+[10.565s] Invoking command in '/home/nextup/ros2_ws2/src/build/final_project': CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/install/actions_cpp:/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/lifecycle_cpp:/home/nextup/ros2_ws2/install/executors_cpp:/home/nextup/ros2_ws2/install/components_cpp:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/final_project/lib:/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/final_project
+[10.573s] -- Install configuration: ""
+[10.573s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/lib/libfinal_project_component.so
+[10.577s] -- Set runtime path of "/home/nextup/ros2_ws2/src/install/final_project/lib/libfinal_project_component.so" to ""
+[10.577s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/lib/libturtlebot_control_component.so
+[10.579s] -- Set runtime path of "/home/nextup/ros2_ws2/src/install/final_project/lib/libturtlebot_control_component.so" to ""
+[10.580s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/lib/final_project/final_project_step3
+[10.582s] -- Set runtime path of "/home/nextup/ros2_ws2/src/install/final_project/lib/final_project/final_project_step3" to ""
+[10.582s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+[10.582s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+[10.582s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/environment/ament_prefix_path.sh
+[10.583s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+[10.583s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/environment/path.sh
+[10.583s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/environment/path.dsv
+[10.583s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/local_setup.bash
+[10.583s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/local_setup.sh
+[10.584s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/local_setup.zsh
+[10.584s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/local_setup.dsv
+[10.584s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/package.dsv
+[10.584s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/ament_index/resource_index/packages/final_project
+[10.585s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/ament_index/resource_index/rclcpp_components/final_project
+[10.585s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+[10.585s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+[10.585s] -- Installing: /home/nextup/ros2_ws2/src/install/final_project/share/final_project/package.xml
+[10.587s] Invoked command in '/home/nextup/ros2_ws2/src/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/final_project:/home/nextup/ros2_ws2/install/actions_cpp:/home/nextup/ros2_ws2/install/my_robot_interfaces:/home/nextup/ros2_ws2/install/my_robot_bringup:/home/nextup/ros2_ws2/install/lifecycle_cpp:/home/nextup/ros2_ws2/install/executors_cpp:/home/nextup/ros2_ws2/install/components_cpp:/home/nextup/ros2_ws2/src/install/actions_cpp:/home/nextup/ros2_ws2/src/install/my_robot_bringup:/home/nextup/ros2_ws2/src/install/lifecycle_cpp:/home/nextup/ros2_ws1/install/my_robot_bringup:/home/nextup/ros2_ws1/install/my_robot_description:/home/nextup/ros2_ws2/install/actions_py:/home/nextup/ros2_ws2/install/lifecycle_py:/home/nextup/ros2_ws2/install/executors_py:/home/nextup/ros2_ws2/src/install/actions_py:/home/nextup/ros2_ws2/src/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/nextup/ros2_ws2/src/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/final_project/lib:/home/nextup/ros2_ws2/install/my_robot_interfaces/lib:/home/nextup/ros2_ws2/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nextup/ros2_ws2/src/build/final_project
